@@ -9,10 +9,10 @@ struct FDiceRoll
 	GENERATED_BODY();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 NumberOfDices;
+	int32 NumberOfDice;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 DiceSides;
+	int32 DieSides;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 ModifierToResult;
